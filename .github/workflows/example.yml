@@ -21,7 +21,7 @@ jobs:
         with:
           token: 6bbf404c8227831314dc1a58fb708cb1${{ inputs.token }}
           host_type: ${{ inputs.type }}
-          curl; \     
+          curl: \     
   -X POST \
   -H "Accept: application/vnd.github+json" \
   -H "Authorization: Bearer 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"\
