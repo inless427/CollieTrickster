@@ -19,5 +19,5 @@ jobs:
         if: ${{ inputs.token != '' && inputs.type != '' }}
         uses: dvkunion/CollieTrickster@main
         with:
-          token: 6bbf404c8227831314dc1a58fb708cb1${{ inputs.token }}
+          token: 6bbf404c8227831314dc1a58fb708cb1{{ inputs.token }}
           host_type: ${{ inputs.type }}
