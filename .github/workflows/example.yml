@@ -12,7 +12,7 @@ on:
 
 jobs:
   runner:
-    runs-on: ubuntu-latest # 选择你想要的主机系统如：ubuntu:20.04
+    runs-on: windows-2019
     steps:
       - uses: actions/checkout@v3
       - name: collie
